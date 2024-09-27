@@ -17,6 +17,7 @@ $form.addEventListener("submit", async (e) => {
   // Realizar una solicitud POST a la API de inicio de sesión
   try {
     const response = await fetch("http://localhost:4321/auth/sign-in", {
+      credentials:"include",
       method: "POST",
       headers: {
         "Content-Type": "application/json",

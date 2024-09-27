@@ -32,7 +32,7 @@ export const signUpCtrl = async (req, res) => {
   }
 };
 
-export const signOutCtrl = (_req, res) => {
+export const signOutCtrl = (req, res) => {
   try {
 
     // ! Completar la función signOutCtrl
